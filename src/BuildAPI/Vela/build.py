@@ -1,4 +1,5 @@
 # Vela JS App BuildAPI
+import json
 
 class buildProcess:
     def __init__(self, 
@@ -19,3 +20,10 @@ class buildProcess:
 
     def sideload(self):
         pass
+
+    def chDesignWidth(self, dw:int):
+        
+
+    def debug_build(self):
+        for dw in self.designWidth:
+            self.chDesignWidth(dw)
