@@ -103,3 +103,9 @@ manifest.json中versionCode字段的更新规则, 默认为不更新(+=0)
 #### buildTemplate
 
 编译模板名称, 默认为$current_template
+
+### AppOption
+
+应用选项, 将存储至src目录下的quickbuilder.app.option.js
+
+内容由开发者自行填写, 为一个Object, 将在正式编译前由QuickBuilder转译为JS并存储至上述目录. Object中的Value类型支持string与int
