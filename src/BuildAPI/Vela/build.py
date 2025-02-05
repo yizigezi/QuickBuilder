@@ -8,7 +8,7 @@ class buildProcess:
                  protobuf:bool=False,
                  env:str='debug'):
         self.designWidth = designWidth
-        self.buildMode = env
+        self.env = env
         self.buildProps = []
         if jsc:
             self.buildProps.append('--enable-jsc')
@@ -17,4 +17,5 @@ class buildProcess:
         if protobuf:
             self.buildProps.append('--enable-protobuf')
 
-    def 
+    def sideload(self):
+        pass

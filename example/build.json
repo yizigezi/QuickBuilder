@@ -1,0 +1,26 @@
+{
+    "name": "ProjectNevada.build.debug",
+    "standardVer": "v1-250205",
+    "package": "com.cora.wear.todo.next",
+    "designWidths":[
+        336,
+        192,
+        432,
+        466
+    ],
+    "type": "debug",
+    "versioncodeUpdateRule": "+=1",
+    "props": [
+        "--enable-jsc",
+        "--enable-custom-component",
+        "--enable-protobuf"
+    ],
+    "buildinfoContent":{
+        "buildTime": "%Y-%m-%d %H:%M:%S",
+        "builder": "$systemuser",
+        "buildTemplate": "$current_template"
+    },
+    "AppOption": {
+        "AppStartUpMode": 0
+    }
+}
